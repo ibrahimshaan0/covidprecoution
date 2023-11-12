@@ -22,6 +22,6 @@ samples, guidance on mobile development, and a full API reference.
 <hr>
 <br>
 
-<img align="Center" src="https://raw.githubusercontent.com/ibrahimshaan0/covidprecoution/main/assets/images/covidPrecautionApp.PNG">
+<img align="Center" src="https://raw.githubusercontent.com/ibrahimshaan0/covidprecoution/main/assets/images/covidPrecaution.png">
 
 </div>
