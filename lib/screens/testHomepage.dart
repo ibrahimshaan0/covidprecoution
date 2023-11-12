@@ -1,19 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class homePage extends StatefulWidget {
-  const homePage({super.key});
+class testHomePage extends StatefulWidget {
+  const testHomePage({super.key});
 
   @override
-  State<homePage> createState() => _homePageState();
+  State<testHomePage> createState() => _testHomePageState();
 }
 
-class _homePageState extends State<homePage> {
+class _testHomePageState extends State<testHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Precausion for Covid 19"),
+        title: Text("Precausion for Covid 19"),
         centerTitle: true,
         backgroundColor: Colors.blueAccent,
       ),
@@ -33,28 +33,28 @@ class _homePageState extends State<homePage> {
             // Image.asset('assets/images/img.jpg')
           ],
         ),
-
+        
       ),
     );
   }
 }
 Widget covidPrecautionItems(String imagePath,String innterText,){
   return Container(
-    margin: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
-    decoration: BoxDecoration(
+      margin: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+      decoration: BoxDecoration(
         border: Border.all(color: Colors.blueAccent),
         borderRadius: BorderRadius.circular(15),
         gradient: const LinearGradient(
-            colors: [Color(0xFFFFFFFF),Color(0x110000FF)]
+          colors: [Color(0xFFFFFFFF),Color(0x110000FF)],
         )
-    ),
-    child: ListTile(
-      contentPadding: const EdgeInsets.symmetric(vertical: 5,horizontal: 5),
-      leading: Image.asset(
-        imagePath,
-        width: 60,
-      ) ,
-      title: Text(innterText),
-    ),
+      ),
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(vertical: 5,horizontal: 5),
+        leading: Image.asset(
+          imagePath,
+          width: 60,
+        ) ,
+        title: Text(innterText),
+      ),
   );
 }
