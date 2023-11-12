@@ -1,9 +1,11 @@
-# covidprecoution
+<div align = "Center" >
+<h1> covidprecoution </h1>
 
-A new Flutter project.
+<p>A new Flutter project.</p>
 
-## Getting Started
+<h2> Getting Started </h2>
 
+<pre>
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
@@ -14,7 +16,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+  
+</pre>
+<br>
 <hr>
-<br><br>
+<br>
 
 <img align="Center" src="https://raw.githubusercontent.com/ibrahimshaan0/covidprecoution/main/assets/images/covidPrecautionApp.PNG">
+
+</div>
